@@ -1,0 +1,18 @@
+html, body, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;/*  100% = 16px 62.5% = 10px */
+}
+.parent{
+    font-size: 100px;
+}
+.px-size{
+    font-size: 100px;
+}
+.rem-size{
+    font-size: 10rem;
+}
+.em-size{
+    font-size: 1em;
+}
