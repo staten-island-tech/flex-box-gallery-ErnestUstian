@@ -4,17 +4,27 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%;
 }
-
+.Background{
+    background: linear-gradient()
+}
 .parent{
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     justify-content: ;
+    margin: 50px;
+    padding: auto;
 }
-
+.Zenith{
+    width:200px
+}
 
 
 .child{
     border: 1px solid red;
     width: 28%;
 } 
+h1{
+    font-size: 50px;
+    text-align: center;
+}
