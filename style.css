@@ -3,22 +3,32 @@ html, body, *{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    color: white;
 }
-.Background{
-    background: linear-gradient()
+body{
+    background-color: rgb(16, 96, 38);
 }
 .parent{
     font-size: 30px;
     display: flex;
     justify-content: space-around;
-    justify-content: ;
     margin: 50px;
     padding: auto;
-}
-.Zenith{
-    width:200px
+    justify-items: auto;
 }
 
+.Zenith{
+    width: 25rem;
+    height: 25rem;
+}
+.Terrablade{
+    width: 25rem;
+    height: 25rem;
+}
+.RBT{
+    width: 25rem;
+    height: 25rem;
+}
 
 .child{
     border: 1px solid red;
