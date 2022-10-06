@@ -9,21 +9,9 @@ body{
     background-color: rgb(16, 96, 38);
 }
 .parent{
-    font-size: 30px;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-self: flex-start;
-    width: 1000px;
-
 }
-
-.row{
-    display: flex;
-    justify-content: space-around;
-}
-
 h1{
     font-size: 50px;
     text-align: center;
