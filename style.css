@@ -10,9 +10,68 @@ body{
 }
 .parent{
     display: flex;
-    flex-wrap: wrap;
+
 }
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+  }
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.Zenith{
+
+    box-shadow: 10px 5px 5px black;
+}
+.Terrablade{
+
+    box-shadow: 10px 5px 5px black;
+}
+.RBT{
+
+    box-shadow: 10px 5px 5px black;
+}
+
+.BeeGun{
+
+    box-shadow: 10px 5px 5px black;
+}
+.DSB{
+
+    box-shadow: 10px 5px 5px black;
+}
+.StarCannon{
+
+    box-shadow: 10px 5px 5px black;
+}
+
+.Terraprisma{
+
+    box-shadow: 10px 5px 5px black;
+}
+.Tsunami{
+
+    box-shadow: 10px 5px 5px black;
+}
+.Terrarian{
+
+    box-shadow: 10px 5px 5px black;
+}
+
 h1{
     font-size: 50px;
     text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+img{
+    width: 25rem;
+    height: 25rem;
 }
