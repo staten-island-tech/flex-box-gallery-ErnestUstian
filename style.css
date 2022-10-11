@@ -10,6 +10,11 @@ body{
 }
 .parent{
     display: flex;
+    width: 90vw;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 
 }
 img{
@@ -17,53 +22,15 @@ img{
     height: 25rem;
     object-fit: contain;
     margin: 60px 0;
-}
-
-.Zenith{
-
     box-shadow: 10px 5px 5px black;
+    transition: all 0.3s;
 }
-.Terrablade{
-
-    box-shadow: 10px 5px 5px black;
-}
-.RBT{
-
-    box-shadow: 10px 5px 5px black;
-}
-
-.BeeGun{
-
-    box-shadow: 10px 5px 5px black;
-}
-.DSB{
-
-    box-shadow: 10px 5px 5px black;
-}
-.StarCannon{
-
-    box-shadow: 10px 5px 5px black;
-}
-
-.Terraprisma{
-
-    box-shadow: 10px 5px 5px black;
-}
-.Tsunami{
-
-    box-shadow: 10px 5px 5px black;
-}
-.Terrarian{
-
-    box-shadow: 10px 5px 5px black;
+img:hover{
+    transform: scale(1.2);
 }
 
 h1{
     font-size: 50px;
     text-align: center;
     font-family: 'Comic Neue', cursive;
-}
-img{
-    width: 25rem;
-    height: 25rem;
 }
