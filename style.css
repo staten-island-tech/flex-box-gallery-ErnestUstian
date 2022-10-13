@@ -28,6 +28,30 @@ img{
 img:hover{
     transform: scale(1.2);
 }
+.Zenith{
+    transition: all 0.75s;
+}
+.Zenith:hover{
+    transform: rotate(1turn);
+}
+.DSB{
+    transition: all 0.75s;
+}
+.DSB:hover{
+    transform: rotateY(360deg);
+}
+.Terrarian{
+    transition: all 0.75s;
+}
+.Terrarian:hover{
+    transform: scale3d(2.5, 1.2, 0.3);
+}
+.Terraprisma{
+    transition: all 0.75s;
+}
+.Terraprisma:hover{
+    transform: matrix(0.1, 1, -0.3, 1, 0, 0);
+}
 
 h1{
     font-size: 50px;
