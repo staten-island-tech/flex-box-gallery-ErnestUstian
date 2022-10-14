@@ -53,8 +53,23 @@ img:hover{
     transform: matrix(0.1, 1, -0.3, 1, 0, 0);
 }
 
-h1{
+.title {
     font-size: 50px;
     text-align: center;
     font-family: 'Comic Neue', cursive;
+    animation-name: title;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes title {
+    0% {
+        font-size: 50px;
+    } 
+    50%{
+        font-size: 75px;
+    }
+    100%{
+        font-size: 50px;
+    }
 }
