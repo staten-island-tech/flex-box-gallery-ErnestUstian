@@ -56,10 +56,12 @@ img:hover{
 .title {
     font-size: 50px;
     text-align: center;
-    font-family: 'Comic Neue' cursive;
+    font-family: 'Comic Neue', cursive;
     animation-name: title;
     animation-duration: 2s;
     animation-direction: alternate;
+    font-weight: 1200;
+    margin-top: 20px;
 }
 
 @keyframes title {
@@ -67,7 +69,7 @@ img:hover{
         font-size: 50px;
     } 
     50%{
-        font-size: 75px;
+        font-size: 75px;    
     }
     100%{
         font-size: 50px;
