@@ -56,7 +56,7 @@ img:hover{
 .title {
     font-size: 50px;
     text-align: center;
-    font-family: 'Comic Neue';
+    font-family: 'Comic Neue' cursive;
     animation-name: title;
     animation-duration: 2s;
     animation-direction: alternate;
